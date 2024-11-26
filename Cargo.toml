@@ -1,0 +1,13 @@
+[package]
+name = "jit-experiments"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+mlua = { version = "0.10.0", features = ["luajit52"] }
+wasmtime = "26.0.0"
+wat = "1.219.1"
+
+[profile.release-with-debug]
+inherits = "release"
+debug = true
