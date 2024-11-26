@@ -3,8 +3,8 @@ import time
 # Start time
 start_time = time.time()
 
-# Summing numbers from 1 to 50000000
-total_sum = sum(range(1, 50000001))
+# Summing numbers from 0 to 50000000
+total_sum = sum(range(0, 50000000))
 
 # End time
 end_time = time.time()
